@@ -1,0 +1,24 @@
+# Secrets - never commit these (the .env.example templates are fine)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Data and logs the scripts produce on the Pi
+*.csv
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
